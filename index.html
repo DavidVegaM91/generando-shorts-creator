@@ -922,7 +922,7 @@
                             </button>
                             <button class="generate-button">
                                 <div class="generate-icon">
-                                    <i class="fa-regular fa-wand-magic-sparkles"></i>
+                                    <i class="fa-solid fa-sparkles"></i>
                                 </div>
                                 <span class="generate-text">Generar Shorts</span>
                             </button>
@@ -970,17 +970,7 @@
             this.classList.toggle('active');
         });
 
-        // Add hover effects to skeleton items
-        document.querySelectorAll('.skeleton-item').forEach(item => {
-            item.addEventListener('mouseenter', function() {
-                this.style.transform = 'scale(1.02)';
-                this.style.transition = 'transform 0.2s ease';
-            });
-            
-            item.addEventListener('mouseleave', function() {
-                this.style.transform = 'scale(1)';
-            });
-        });
+
 
         // Add click effects to buttons
         document.querySelectorAll('button, .action-button, .control-icon').forEach(button => {
